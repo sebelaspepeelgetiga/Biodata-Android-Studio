@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="26dp"
+        android:background="#9DF6FC">
+
+        <TextView
+            android:id="@+id/tvJudul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Form Biodata"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="35dp"/>
+
+        <!-- Nama -->
+        <EditText
+            android:id="@+id/etNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Dareka?" />
+
+        <!-- Alamat -->
+        <EditText
+            android:id="@+id/etAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="where is your Addres?" />
+
+        <!-- Tanggal Lahir -->
+        <EditText
+            android:id="@+id/etTanggalLahir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Kamu lahirnya kapan?"
+            android:focusable="false"/>
+
+        <!-- Jenis Kelamin -->
+        <RadioGroup
+            android:id="@+id/rgGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbLaki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Laki-laki" />
+
+            <RadioButton
+                android:id="@+id/rbPerempuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Perempuan" />
+        </RadioGroup>
+
+        <!-- Agama -->
+        <Spinner
+            android:id="@+id/spAgama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+        <!-- Tombol Simpan -->
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Simpan"
+            android:backgroundTint="#4A90A4"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+</ScrollView>
