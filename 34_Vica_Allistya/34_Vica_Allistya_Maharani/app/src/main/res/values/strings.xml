@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Biodata</string>
+    <string name="title_activity_result">ResultActivity</string>
+
+    <string-array name="agama_array">
+        <item>Islam</item>
+        <item>Kristen</item>
+        <item>Katolik</item>
+        <item>Hindu</item>
+        <item>Buddha</item>
+        <item>Konghucu</item>
+    </string-array>
+
+    <!-- Tambahan untuk format hasil -->
+    <string name="hasil_format">
+        Nama   : %1$s
+        Alamat : %2$s
+        Tanggal: %3$s
+        Gender : %4$s
+        Agama  : %5$s
+    </string>
+</resources>
